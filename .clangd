@@ -1,0 +1,18 @@
+CompileFlags:
+  Remove: [-fvisibility=hidden]
+  Add:
+    - -std=c++17
+    - -DQT_CORE_LIB
+    - -DQT_GUI_LIB
+    - -DQT_WIDGETS_LIB
+    - -DQT_MULTIMEDIA_LIB
+    - -DQT_NETWORK_LIB
+    - -ID:/Synera/src
+    - -ID:/Qt/6.11.1/mingw_64/include
+    - -ID:/Qt/6.11.1/mingw_64/include/QtCore
+    - -ID:/Qt/6.11.1/mingw_64/include/QtGui
+    - -ID:/Qt/6.11.1/mingw_64/include/QtWidgets
+    - -ID:/Qt/6.11.1/mingw_64/include/QtMultimedia
+    - -ID:/Qt/6.11.1/mingw_64/include/QtNetwork
+Index:
+  Background: Build
